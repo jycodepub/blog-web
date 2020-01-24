@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  blog-mongo:
+    image: mongo:4.2
+    container_name: blog-mongo
+    ports:
+    - 27017:27017
